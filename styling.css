@@ -1,0 +1,127 @@
+/* Instagram tab */
+
+
+/* Parallax */
+
+
+/* Buttons */
+
+span.tab-space {
+    padding-left: 2em;
+}
+
+.color-variant li {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    margin-right: 5px;
+    transition: all 0.1s ease;
+    vertical-align: middle;
+}
+
+.parallax {
+    background-image: url("https://themes.pixelstrap.com/multikart/assets/images/parallax/1.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-contain {
+    float: right;
+    margin: 0 auto;
+    position: absolute;
+    left: 100px;
+    transform: translateY(40%);
+    text-align: center;
+}
+
+.banner-contain h1 {
+    font-size: 80px;
+}
+
+.banner-contain h2 {
+    color: black;
+    font-size: 60px;
+}
+
+.banner-contain h4 {
+    color: #7f786d;
+    font-size: 40px;
+}
+
+.instagram-box {
+    position: relative;
+    background-color: #ff3300;
+    overflow: hidden;
+}
+
+.instagram-box img {
+    width: 100%;
+    border: none;
+}
+
+.instagram-box .overlay {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #ff3300;
+    top: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(3) rotate(90deg);
+}
+
+.instagram-box .overlay i {
+    font-size: 60px;
+    color: #ffffff;
+}
+
+.instagram-box:hover .overlay {
+    opacity: 0.5;
+    transition: 0.5s ease;
+    transform: scale(1) rotate(0deg);
+}
+
+.insta-style .slick-current .instagram-box .overlay {
+    opacity: 0.4;
+    transform: scale(1) rotate(0deg);
+}
+
+.btn0 {
+    background-color: #ff3300;
+    height: 45px;
+    width: 150px;
+    color: white;
+    outline: none;
+    border: none;
+    border: 1px solid #ff3300;
+}
+
+.btn0:hover {
+    background-color: white;
+    color: #ff3300;
+    transition: 0.4s;
+}
+
+.btn {
+    background-color: #ff3300;
+    height: 45px;
+    width: 150px;
+    color: white;
+    outline: none;
+    border: none;
+    border: 1px solid #ff3300;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #ff3300;
+    transition: 0.4s;
+}
